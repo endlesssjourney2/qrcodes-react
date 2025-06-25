@@ -1,4 +1,3 @@
-import React from "react";
 import { SCAN_DATA } from "../constants";
 import { QRCodeSVG } from "qrcode.react";
 import styles from "./ScanHistory.module.css";

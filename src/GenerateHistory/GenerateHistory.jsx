@@ -1,4 +1,3 @@
-import React from "react";
 import { GENERATE_DATA } from "../constants";
 import styles from "./GenerateHistory.module.css";
 import { QRCodeSVG } from "qrcode.react";
