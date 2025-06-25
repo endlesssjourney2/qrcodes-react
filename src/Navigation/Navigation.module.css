@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  transition: all 0.3s linear;
+  position: relative;
+}
+
+.link:hover {
+  color: gray;
+  animation: animate infinite 1s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(30%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
