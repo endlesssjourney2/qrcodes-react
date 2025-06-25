@@ -3,7 +3,7 @@ import Navigation from "./Navigation/Navigation";
 import QrGenerator from "./qrGenerator/QrGenerator";
 import ScanHistory from "./ScanHistory/ScanHistory";
 import GenerateHistory from "./GenerateHistory/GenerateHistory";
-import QrCodeScanner from "./qrCodeScanner/qrCodeScanner";
+import QrCodeScanner from "./QrCodeScanner/QrCodeScanner";
 
 const Layout = () => {
   return (
