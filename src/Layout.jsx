@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
 import Navigation from "./Navigation/Navigation";
-import QrCodeScanner from "./qrCodeScanner/qrCodeScanner";
 import QrGenerator from "./qrGenerator/QrGenerator";
 import ScanHistory from "./ScanHistory/ScanHistory";
 import GenerateHistory from "./GenerateHistory/GenerateHistory";
+import QrCodeScanner from "./qrCodeScanner/qrCodeScanner";
 
 const Layout = () => {
   return (
