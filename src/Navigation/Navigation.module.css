@@ -13,7 +13,7 @@
 }
 
 .link:hover {
-  color: gray;
+  color: rgb(38, 34, 34);
   animation: animate infinite 1s;
 }
 

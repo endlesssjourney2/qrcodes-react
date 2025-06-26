@@ -7,9 +7,8 @@ import QrCodeScanner from "./QrCodeScanner/QrCodeScanner";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="page">
       <Navigation />
-
       <Routes>
         <Route path="/generate" element={<QrGenerator />} />
         <Route path="/scan" element={<QrCodeScanner />} />

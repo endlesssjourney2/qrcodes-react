@@ -21,7 +21,6 @@ const QrGenerator = () => {
     setResult("");
   };
 
-  console.log(value);
   return (
     <div className={styles.container}>
       <input
