@@ -8,6 +8,7 @@ const QrGenerator = () => {
   const [result, setResult] = useState("");
 
   const onClickHandler = () => {
+    if (value.trim() === "") return;
     const prevData = JSON.parse(localStorage.getItem(GENERATE_DATA) || "[]");
 
     localStorage.setItem(GENERATE_DATA, JSON.stringify([...prevData, value]));
@@ -16,7 +17,7 @@ const QrGenerator = () => {
     setValue("");
   };
 
-  const onChangeHandler = () => {
+  const onChangeHandler = (event) => {
     setValue(event.target.value);
     setResult("");
   };
