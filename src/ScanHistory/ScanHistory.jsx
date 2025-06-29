@@ -12,8 +12,9 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: 500,
-    height: 500,
+    width: 300,
+    height: 300,
+    overflow: "hidden",
   },
 };
 
@@ -55,9 +56,8 @@ const ScanHistory = () => {
           <button className={styles.closeButton} onClick={closeModal}>
             X
           </button>
-          <h2 className={styles.modalTitle}>Scan: {selectedText}</h2>
           <QRCodeSVG value={selectedText} size={200} />
-          <br />
+          <h2 className={styles.modalTitle}>Scan: {selectedText}</h2>
         </div>
       </Modal>
     </div>

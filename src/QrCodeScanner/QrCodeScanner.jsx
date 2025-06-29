@@ -27,8 +27,8 @@ const QrCodeScanner = () => {
         }}
         styles={{
           container: {
-            width: 400,
-            height: 400,
+            width: 600,
+            height: 500,
             position: "relative",
             bottom: 100,
           },
