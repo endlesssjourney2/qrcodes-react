@@ -9,12 +9,15 @@ const Layout = () => {
   return (
     <div className="page">
       <Navigation />
-      <Routes>
-        <Route path="/generate" element={<QrGenerator />} />
-        <Route path="/scan" element={<QrCodeScanner />} />
-        <Route path="/historyGenerate" element={<GenerateHistory />} />
-        <Route path="/historyScan" element={<ScanHistory />} />
-      </Routes>
+      <main className="content">
+        <Routes>
+          <Route path="/generate" element={<QrGenerator />} />
+          <Route path="/scan" element={<QrCodeScanner />} />
+          <Route path="/historyGenerate" element={<GenerateHistory />} />
+          <Route path="/historyScan" element={<ScanHistory />} />
+        </Routes>
+      </main>
+      <footer className="footer">© 2025 QrCodes. endlesssjourney</footer>
     </div>
   );
 };
