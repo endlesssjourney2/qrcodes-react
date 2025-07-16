@@ -27,11 +27,11 @@ body {
 }
 
 .footer {
-  /* background-color: #f0f0f0; */
   padding: 10px;
   text-align: center;
   font-weight: bold;
   font-size: 1rem;
+  background-color: #fafafa;
 }
 
 p {
